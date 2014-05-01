@@ -12,8 +12,9 @@ if(nombre == ""){
  }
 
 //Natalia
-var sexo = document.getElementsByName("Sexo");
-if(sexo[0].checked == false && sexo[1].checked == false)
+var sexof = document.getElementsById('fem');
+var sexom = document.getElementsById('masc');
+if(sexof.checked == false && sexom.checked == false)
  {
   alert("No se ha seleccionado ningun sexo");
    return false;
